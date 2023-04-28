@@ -1,7 +1,62 @@
-<div class="product-card">
-  <div class="product-title">
-    <h1 class="title">{{ product }}</h1>
+<div
+  class="flex flex-col items-center p-4 product-card border-2 border-cyan-800 border-solid my-[50px] mx-auto max-w-[400px] rounded-md"
+>
+  <div class="supplier-card">
+    <div class="supplier-title font-bold p-1 text-xl">{{ supplier }}</div>
   </div>
-  <img src="" alt="Producto X" />
-  <div class="product-description">{{ description }}</div>
+  <img
+    width="60"
+    src="https://cdn-icons-png.flaticon.com/512/2076/2076995.png"
+    alt="Producto X"
+  />
+  <div class="border-solid border-[1px] border-cyan-800 w-[90%] m-1"></div>
+  <div class="supplier-product w-[100%] text-left">
+    <div class="products-name">
+      <span class="font-semibold"
+        >Productos distribuidos por: {{ supplier }}
+      </span>
+      <ul>
+        <li class="my-[5px]">
+          Producto 1
+          <input
+            type="text"
+            placeholder="Cantidad..."
+            class="ml-[50px] border-solid border-cyan-800 border-[1px] max-w-[100px] text-center"
+          />
+        </li>
+        <li class="my-[5px]">
+          Producto 2
+          <input
+            type="text"
+            placeholder="Cantidad..."
+            class="ml-[50px] border-solid border-cyan-800 border-[1px] max-w-[100px] text-center"
+          />
+        </li>
+        <li class="my-[5px]">
+          Producto 3
+          <input
+            type="text"
+            placeholder="Cantidad..."
+            class="ml-[50px] border-solid border-cyan-800 border-[1px] max-w-[100px] text-center"
+          />
+        </li>
+        <li class="my-[5px]">
+          Producto 4
+          <input
+            type="text"
+            placeholder="Cantidad..."
+            class="ml-[50px] border-solid border-cyan-800 border-[1px] max-w-[100px] text-center"
+          />
+        </li>
+        <li class="my-[5px]">
+          Producto 5
+          <input
+            type="text"
+            placeholder="Cantidad..."
+            class="ml-[50px] border-solid border-cyan-800 border-[1px] max-w-[100px] text-center"
+          />
+        </li>
+      </ul>
+    </div>
+  </div>
 </div>
