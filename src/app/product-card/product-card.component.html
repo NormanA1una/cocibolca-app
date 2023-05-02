@@ -1,21 +1,12 @@
-<div
-  class="flex flex-col items-center p-4 product-card border-2 border-cyan-800 border-solid my-[50px] mx-auto max-w-[400px] rounded-md"
->
-  <div class="supplier-card">
-    <div class="supplier-title font-bold p-1 text-xl">{{ supplier }}</div>
-  </div>
-  <img
-    width="60"
-    src="https://cdn-icons-png.flaticon.com/512/2076/2076995.png"
-    alt="Producto X"
-  />
-  <mat-slide-toggle>Prueba para Angular Material</mat-slide-toggle>
-  <div class="separator border-solid border-[1px] border-cyan-800 w-[90%] m-1"></div>
-  <div class="supplier-product w-[100%] text-left">
-    <div class="products-name">
-      <span class="font-semibold"
-        >Productos distribuidos por: {{ supplier }}
-      </span>
+<div class="my-4 mx-auto w-[400px]">
+  <mat-card class="border-2 border-cyan-800 w-[400px]">
+    <mat-card-header class="justify-center">
+      <div mat-card-avatar class="icon-supplier"></div>
+      <mat-card-title class=""> {{ supplier }} </mat-card-title>
+      <mat-card-subtitle>Estado del proveedor: Activo</mat-card-subtitle>
+    </mat-card-header>
+    <mat-divider class="w-[90%] m-auto"></mat-divider>
+    <mat-card-content class="">
       <ul>
         <li class="my-[5px]">
           Producto 1
@@ -58,6 +49,7 @@
           />
         </li>
       </ul>
-    </div>
-  </div>
+    </mat-card-content>
+  </mat-card>
 </div>
+<div class="h-[10px]"></div>
