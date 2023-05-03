@@ -8,44 +8,12 @@
     <mat-divider class="w-[90%] m-auto"></mat-divider>
     <mat-card-content class="">
       <ul>
-        <li class="my-[5px]">
-          Producto 1
+        <li *ngFor="let product of nameOfProduct" class="my-[5px] list-none">
+          {{ product }}
           <input
             type="text"
             placeholder="Cantidad..."
-            class="ml-[50px] border-solid border-cyan-800 border-[1px] max-w-[100px] text-center"
-          />
-        </li>
-        <li class="my-[5px]">
-          Producto 2
-          <input
-            type="text"
-            placeholder="Cantidad..."
-            class="ml-[50px] border-solid border-cyan-800 border-[1px] max-w-[100px] text-center"
-          />
-        </li>
-        <li class="my-[5px]">
-          Producto 3
-          <input
-            type="text"
-            placeholder="Cantidad..."
-            class="ml-[50px] border-solid border-cyan-800 border-[1px] max-w-[100px] text-center"
-          />
-        </li>
-        <li class="my-[5px]">
-          Producto 4
-          <input
-            type="text"
-            placeholder="Cantidad..."
-            class="ml-[50px] border-solid border-cyan-800 border-[1px] max-w-[100px] text-center"
-          />
-        </li>
-        <li class="my-[5px]">
-          Producto 5
-          <input
-            type="text"
-            placeholder="Cantidad..."
-            class="ml-[50px] border-solid border-cyan-800 border-[1px] max-w-[100px] text-center"
+            class="ml-[50px] border-solid border-cyan-800 border-[1px] max-w-[100px] text-center rounded"
           />
         </li>
       </ul>

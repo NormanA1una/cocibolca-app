@@ -8,6 +8,7 @@ import { MatCardModule } from '@angular/material/card';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatListModule } from '@angular/material/list';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   declarations: [AppComponent, ProductCardComponent],
@@ -19,6 +20,7 @@ import { MatListModule } from '@angular/material/list';
     MatDividerModule,
     MatGridListModule,
     MatListModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
