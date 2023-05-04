@@ -9,9 +9,10 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
+import { HeaderCocibolcaAppComponent } from './header-cocibolca-app/header-cocibolca-app.component';
 
 @NgModule({
-  declarations: [AppComponent, ProductCardComponent],
+  declarations: [AppComponent, ProductCardComponent, HeaderCocibolcaAppComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

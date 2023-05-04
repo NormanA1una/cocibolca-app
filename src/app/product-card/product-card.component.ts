@@ -7,9 +7,6 @@ import { Product } from '../model/product';
   styleUrls: ['./product-card.component.css'],
 })
 export class ProductCardComponent implements OnInit {
-  @Input()
-  product!: Product;
-
   constructor() {}
   supplier = 'Proveedor X';
 
@@ -21,7 +18,5 @@ export class ProductCardComponent implements OnInit {
     'Producto 5',
   ];
 
-  ngOnInit(): void {
-    this.product;
-  }
+  ngOnInit(): void {}
 }
