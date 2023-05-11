@@ -9,10 +9,16 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatListModule } from '@angular/material/list';
 import { MatIconModule } from '@angular/material/icon';
-import { HeaderCocibolcaAppComponent } from './header-cocibolca-app/header-cocibolca-app.component';
+import { HeaderCocibolcaAppComponent } from './components/header-cocibolca-app/header-cocibolca-app.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
-  declarations: [AppComponent, ProductCardComponent, HeaderCocibolcaAppComponent],
+  declarations: [
+    AppComponent,
+    ProductCardComponent,
+    HeaderCocibolcaAppComponent,
+    FooterComponent,
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
